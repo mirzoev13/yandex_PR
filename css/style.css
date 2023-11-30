@@ -402,7 +402,7 @@ main section{
   }
 
   main section{
-    padding: 30px 50px;
+    padding: 30px 16px;
   }
 
   main h1{
@@ -411,6 +411,7 @@ main section{
 
   main .cards-container{
     grid-template-columns: repeat(2,1fr);
+
   }
 
   footer .footer-container{
@@ -421,6 +422,7 @@ main section{
 
   .cross .main_text h1{
     font-size: 32px;
+    padding: 0px 0px 25px 0;
   }
 
   .cross .main_text h2{
@@ -476,16 +478,23 @@ main section{
   }
   
 
-  main section{
-      padding: 30px 30px;
+  main > .container{
+    padding: 32px 16px 32px 16px;
   }
+
+  main section{
+    padding: 30px 16px;
+  }
+  
 
   main h1{
     font-size: 32px;
+    padding: 0px 0px 25px 0;
   }
 
   main .cards-container{
     grid-template-columns: 1fr;
+    padding-bottom: 0;
   }
 
   footer .footer-container{
@@ -519,10 +528,20 @@ main section{
 
   main h1{
     font-size: 32px;
+    padding: 0px 0px 25px 0;
+  }
+
+  main section{
+    padding: 30px 16px;
+  }
+
+  main > .container{
+    padding: 32px 16px 32px 16px;
   }
 
   main .cards-container{
     grid-template-columns: 1fr;
+    padding-bottom: 0;
   }
 
   .cross{
@@ -572,10 +591,16 @@ main section{
 
   main h1{
     font-size: 32px;
+    padding: 0px 0px 25px 0;
+  }
+
+  main > .container{
+    padding: 32px 16px 32px 16px;
   }
 
   main .cards-container{
     grid-template-columns: 1fr;
+    padding-bottom: 0;
   }
 
   .cross{
